@@ -1,14 +1,14 @@
-# Fitness App - An Exercise App using React JS
+# Fitness Gym React - A Fitness App using React JS
 
 ![A Fitness Exercise App using React JS](https://user-images.githubusercontent.com/71302066/177488360-1745acfe-7c3f-4418-a317-86a671b0adac.png "A Fitness Exercise App using React JS")
 
-[![Ask Me Anything!](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/adarshagnihotri0 "Ask Me Anything!")
-[![GitHub license](https://img.shields.io/github/license/Technical-Shubham-tech/fitness-app)](https://github.com/adarshagnihotri0/fitness-app/blob/main/LICENSE.md "GitHub license")
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/adarshagnihotri0/fitness-app/commits/main "Maintenance")
-[![GitHub branches](https://badgen.net/github/branches/Technical-Shubham-tech/fitness-app)](https://github.com/adarshagnihotri0/fitness-app/branches "GitHub branches")
+[![Ask Me Anything!](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/Adarshagnihotri0 "Ask Me Anything!")
+[![GitHub license](https://img.shields.io/github/license/Adarshagnihotri0/fitness-gym-react)](https://github.com/Adarshagnihotri0/fitness-gym-react/blob/main/LICENSE.md "GitHub license")
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Adarshagnihotri0/fitness-gym-react/commits/main "Maintenance")
+[![GitHub branches](https://badgen.net/github/branches/Adarshagnihotri0/fitness-gym-react)](https://github.com/Adarshagnihotri0/fitness-gym-react/branches "GitHub branches")
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e621768c-44b6-49eb-a814-0a7ee44b0096/deploy-status)](https://fitness-gym-react.netlify.app "Netlify Status")
-[![GitHub issues](https://img.shields.io/github/issues/adarshagnihotri0/fitness-app)](https://github.com/Technical-Shubham-tech/fitness-app/issues "GitHub issues")
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/adarshagnihotri0/fitness-app)](https://github.com/adarshagnihotri0/fitness-app/pulls "GitHub pull requests")
+[![GitHub issues](https://img.shields.io/github/issues/Adarshagnihotri0/fitness-gym-react)](https://github.com/Adarshagnihotri0/fitness-gym-react/issues "GitHub issues")
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/Adarshagnihotri0/fitness-gym-react)](https://github.com/Adarshagnihotri0/fitness-gym-react/pulls "GitHub pull requests")
 
 ## :warning: Before you start
 
@@ -16,11 +16,6 @@
 2. **Yarn** is faster than Npm. So use [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/ "Yarn").
 3. Create `.env` file in root folder.
 4. Contents of `.env`
-
-```
-REACT_APP_RAPID_API_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-```
-
 5. Create a [Rapid API](rapidapi.com/hub/ "Rapid API") account.
 6. Enable these two APIs for fetching exercises data: [API 1: ExerciseDB](https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb/ "ExerciseDB") and [API 2: Youtube Search and Download](https://rapidapi.com/h0p3rwe/api/youtube-search-and-download/ "Youtube Search and Download").
 
@@ -29,15 +24,15 @@ REACT_APP_RAPID_API_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 7. After enabling you can get your API Keys and paste them in `.env` file.
 8. You are ready to go :fire:
 
-   _NOTE:_ Never share these Keys publicaly.
+   _NOTE:_ Never share these Keys publicly.
 
 ## :pushpin: How to use this App?
 
 1. Clone this **repository** to your local computer.
-2. Open **terminal** in root directory.
+2. Open **terminal** in the root directory.
 3. Type and Run `npm install` or `yarn install`.
 4. Once packages are installed, you can start this app using `npm start` or `yarn start`
-5. Now app is fully configured and you can start using this app :+1:
+5. Now, the app is fully configured and you can start using this app :+1:
 
 ## :camera: Screenshots:
 
@@ -63,10 +58,9 @@ REACT_APP_RAPID_API_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 You might encounter some bugs while using this app. You are more than welcome to contribute. Just submit changes via pull request and I will review them before merging. Make sure you follow community guidelines.
 
-
 ## :star: Give A Star
 
-You can also give this repository a star to show more people and they can use this repository.
+You can also give this repository a star to show more people, and they can use this repository.
 
 ## :books: Available Scripts
 
@@ -74,7 +68,7 @@ In the project directory, you can run:
 
 ### `yarn start`
 
-Runs the app in the development mode.\
+Runs the app in development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
@@ -82,15 +76,15 @@ You may also see any lint errors in the console.
 
 ### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
+Launches the test runner in interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
 
-Builds the app for production to the `build` folder.\
+Builds the app for production in the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified, and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
@@ -101,36 +95,12 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc.) right into your project, so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point, you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However, we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## :page_with_curl: Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
