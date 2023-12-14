@@ -19,7 +19,7 @@ const Footer = () => {
             rel="noreferrer"
             style={{ color: "#FF2625", textDecoration: "none" }}
           >
-            Sanidhya
+            Adarsh
           </a>
         </Typography>
       </Stack>
